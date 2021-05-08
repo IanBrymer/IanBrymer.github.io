@@ -1,0 +1,370 @@
+.backColour{
+    background-color: #E5E5E5;
+    box-shadow: 0px 0px 5px 50px #252734;
+    border-radius: 10px;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+    background-image: url("../img/NewHouses/Babcock/D19 Pezula Estate (70).jpg");
+        background-size: 100% 100%;
+}
+
+@media screen and (min-width: 2560px) {
+.backColour{
+    margin-top: 2%;
+
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.backColour{
+
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 2561px) {
+.backColour{
+
+    margin-top: 2%;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.backColour{
+
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+.backColour{
+
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.backColour{
+
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+.backColour{
+      margin-top: 15%;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.backColour{
+      margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+.backColour{
+
+      margin-top: 30%;
+  }
+}
+
+
+
+
+
+
+.pHead{
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #000;
+  font-weight: bolder;
+  text-shadow: 1px 1px #fff;
+}
+
+@media screen and (min-width: 2560px) {
+.pHead{
+
+
+  font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.pHead{
+
+  font-size: 50px;
+  }
+}
+@media screen and (max-width: 2561px) {
+.pHead{
+
+  font-size: 50px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.pHead{
+
+  font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+.pHead{
+
+  font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.pHead{
+
+  font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+.pHead{
+  font-size: 22px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.pHead{
+
+  font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+.pHead{
+
+  font-size: 15px;
+  }
+}
+
+.pBody{
+  text-align: center;
+  font-size: 180%;
+  color: #EEEE9F;
+}
+
+@media screen and (min-width: 2560px) {
+.pBody{
+  text-align: center;
+
+  font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.pBody{
+  text-align: center;
+  font-size: 50px;
+  }
+}
+@media screen and (max-width: 2561px) {
+.pBody{
+  text-align: center;
+  font-size: 50px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.pBody{
+  text-align: center;
+  font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+.pBody{
+  text-align: center;
+  font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.pBody{
+  text-align: left;
+  font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+.pBody{
+    text-align: left;
+  font-size: 22px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.pBody{
+  text-align: left;
+  font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+.pBody{
+  text-align: left;
+  font-size: 15px;
+  }
+}
+
+.position{
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+@media screen and (min-width: 2560px) {
+.position{
+
+    text-align: center;
+      font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.position{
+      font-size: 30px;
+      text-align: center;
+  }
+}
+@media screen and (max-width: 2561px) {
+.position{
+    text-align: center;
+          font-size: 27px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.position{
+    text-align: center;
+              font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+.position{
+    text-align: center;
+              font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.position{
+    text-align: center;
+              font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+.position{
+    text-align: center;
+      font-size: 16px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.position{
+    text-align: center;
+          font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+.position{
+    text-align: center;
+          font-size: 12px;
+  }
+}
+
+
+.width{
+
+}
+
+@media screen and (min-width: 2560px) {
+.width{
+  width: 65%;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.width{
+  width: 65%;
+  }
+}
+@media screen and (max-width: 2561px) {
+.width{
+  width: 65%;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.width{
+  width: 75%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+.width{
+  width: 85%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.width{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+.width{
+
+  width: 90%;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.width{
+  margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+.width{
+  margin-left: 5%;
+  }
+}

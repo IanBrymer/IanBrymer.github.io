@@ -1,0 +1,36 @@
+nav.Navigate{
+    text-align: center;
+    width: 100%;
+
+  background-color:  #00010f;
+    overflow: hidden;
+
+}
+
+ul.Centered{
+    text-align: center;
+    color: #000000;
+
+    width: 100%;
+
+
+
+}
+
+
+
+li.centerList{
+    color: #CCCCCC;
+    font-weight: 500;
+    width: 100%;
+
+
+}
+
+
+
+a.font{
+
+  color: #CCCCCC;
+  font-size: 100%;
+}

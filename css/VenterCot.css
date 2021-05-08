@@ -1,0 +1,34 @@
+
+
+  h4.atch4{
+    color: #FFFFFF;
+    font-size: 100%;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Major Mono Display', monospace;
+  }
+  table.tableet{
+    margin-top: 5%;
+      width: 100%;
+      height: 100%;
+  }
+
+
+  body.backc{
+    background-color:  #00010f;
+    height: 100%;
+  }
+
+
+.pictureSize{
+  width: 65%;
+  margin-left: 17.5%;
+  padding-top: 5%;
+}
+
+.pictureSizeBottom{
+  width: 65%;
+  margin-left: 17.5%;
+    padding-top: 5%;
+  padding-bottom: 10%;
+}

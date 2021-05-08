@@ -1,0 +1,198 @@
+div.houseTable{
+}
+
+table.TableOne{
+
+width: 90%;
+margin-left: 5%;
+  margin-top: 5%;
+  box-shadow: 0px 0px 2px 2px #050C1F;
+    background-color: #E5E5E5;
+}
+
+tr.housetr{
+
+}
+
+td.housetd{
+  width: 50%;
+
+}
+
+td.housetd2{
+
+}
+
+img.houseimg1{
+  width: 70%;
+
+}
+
+img:hover.houseimg1{
+
+  background-color: #757575;
+
+}
+img.houseimg2{
+
+
+
+}
+
+h3.TableOneH3{
+  color: #000;
+
+    text-align: right;
+    font-size: 150%;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+h3.TableOneH3no2{
+  color: #000;
+
+
+    font-size: 150%;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Major Mono Display', monospace;
+}
+
+th.TableOneTh{
+
+}
+
+img.imgborder{
+
+}
+
+
+
+
+
+
+
+/* 2nd Table In New Projects */
+
+div.houseTableTwo{
+}
+
+table.Tabletwo{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+      box-shadow: 0px 0px 2px 2px #050C1F;
+        background-color: #E5E5E5;
+}
+
+tr.housetrTwo{
+
+}
+
+td.housetdTwo{
+  width: 50%;
+
+}
+
+td.housetd2Two{
+
+
+
+}
+
+img.houseimg1Two{
+width: 100%;
+
+}
+
+
+h3.TableOneH3Two{
+  color: #000;
+  text-align: right;
+  padding-right: 5%;
+    font-size: 150%;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Major Mono Display', monospace;
+}
+
+h3.TableOneH3TwoTwo{
+  color: #000;
+  text-align: right;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Major Mono Display', monospace;
+      font-size: 150%;
+}
+
+
+th.TableTwoTh{
+
+width: 100%;
+text-align: right;
+}
+
+img.imgborderTwo{
+
+}
+
+
+
+/* 3rd Table In New Projects */
+
+div.houseTableThree{
+
+}
+
+table.TableThree{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+    box-shadow: 0px 0px 2px 2px #050C1F;
+    margin-bottom: 2%;
+      background-color: #E5E5E5;
+}
+
+tr.housetrThree{
+
+}
+
+td.housetdThree{
+  width: 50%;
+
+}
+
+td.housetd2Three{
+
+
+
+}
+
+img.houseimg1Three{
+width: 100%;
+
+}
+
+
+h3.TableOneH3Three{
+  color: #000;
+    font-size: 150%;
+font-family: 'Amatic SC', cursive;
+font-family: 'Major Mono Display', monospace;
+}
+
+h3.TableOneH3ThreeThree{
+  color: #000;
+  text-align: right;
+    font-size: 150%;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Major Mono Display', monospace;
+}
+
+
+th.TableTwoTh{
+
+  padding-left: 20%;
+}
+
+img.imgborderTwo{
+
+}

@@ -1,0 +1,125 @@
+
+
+  h4.atch4{
+    color: #FFFFFF;
+    font-size: 100%;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Major Mono Display', monospace;
+  }
+  table.tableet{
+    margin-top: 5%;
+      width: 100%;
+      height: 100%;
+  }
+
+  .tableet2{
+    margin-top: 5%;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10%
+  }
+
+
+
+td.middle{
+  width: 15%;
+}
+
+img.left{
+  width: 80%;
+  margin-right: 10%;
+  float: right;
+}
+
+img.right{
+  margin-left: 2%;
+  width: 88%;
+}
+
+img.leftBottom{
+  width: 80%;
+  margin-right: 5%;
+  float: right;
+}
+
+img.rightBottom{
+  margin-left: 5%;
+    width: 82%;
+}
+
+
+td.floorrytd{
+
+}
+
+body.backc{
+  background-color:  #00010f;
+  height: 100%;
+}
+
+img.middle{
+  width: 95%;
+  margin-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+img.BottomPic{
+  width: 80%;
+  margin-left: 12%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+img.floorleft{
+  width: 98%;
+margin-right: 0%;
+
+}
+
+img.floorright{
+
+    width: 35%;
+}
+
+td.Othermiddle{
+  width: 30%;
+  margin-right: 30%;
+}
+
+table.tableetfloor{
+  margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.ThreePicTable{
+  width: 93.5%;
+
+  margin-left: 5%;
+
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.vertImageSize{
+  width: 90%;
+}
+
+.vertImagepaddingmiddle{
+    width: 100%;
+    padding-right: 12.5%;
+}
+
+.floorPlanSize{
+  width: 60%;
+  margin-top: 5%;
+
+  margin-left: 20%;
+}

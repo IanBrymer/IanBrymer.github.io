@@ -1,0 +1,154 @@
+
+
+
+
+.XpP{
+
+
+  text-align: center;
+  text-align: justify;
+  font-weight: bolder;
+  color: #000;
+font-family: 'Noto Sans JP', sans-serif;
+
+ /* Green background with 30% opacity */
+}
+
+
+@media screen and (min-width: 2560px) {
+.XpP{
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.XpP{
+        font-size: 22px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.XpP{
+              font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+.XpP{
+              font-size: 18px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.XpP{
+  font-size: 10px;
+  }
+}
+
+
+
+.Pgraphsize{
+  color: #000;
+  text-align: justify;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 2560px) {
+.Pgraphsize{
+        font-size: 27px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+.Pgraphsize{
+            font-size: 27px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+.Pgraphsize{
+              font-size: 22px;
+  }
+}
+@media screen and (max-width: 1000px) {
+.Pgraphsize{
+              font-size: 19px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.Pgraphsize{
+  font-size: 17px;
+  }
+}
+
+
+
+.padtopper{
+  padding-left: 20%;
+  padding-right: 20%;
+
+  padding-bottom: 20%;
+  padding-top: 15%;
+  width: 100%;
+
+
+}
+
+
+
+
+.backImage{
+  background-image: url("../img/NewHouses/Big Cockroft/House A19 PPE (66).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+
+
+
+}
+
+a.linkColour{
+  font-size: 20px;
+    color: #CCCCCC;
+    text-align: center;
+
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Major Mono Display', monospace;
+}
+
+a.linkColour{
+    color: #CCCCCC;
+  background-color: #757575;
+}
+
+
+a.linkColours{
+    color: #CCCCCC;
+    width: 100%;
+    text-align: center;
+}
+
+
+a:hover.linkColours{
+
+    color: #CCCCCC;
+  background-color: #757575;
+}
+
+body.backc{
+  background-color:  #00010f;
+  height: 100%;
+}

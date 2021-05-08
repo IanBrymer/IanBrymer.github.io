@@ -1,0 +1,108 @@
+.divHead{
+    background-color:  #00010f;
+
+}
+
+p.header{
+  color: #A8A8A8;
+  font-family: 'Playfair Display', serif;
+
+}
+
+@media screen and (min-width: 2560px) {
+p.header{
+
+  padding-left: 2%;
+  display: inline-block;
+  font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+p.header{
+  padding-left: 2%;
+   display: inline-block;
+   font-size: 25px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 1441px) {
+p.header{
+  padding-left: 2%;
+  display: inline-block;
+  font-size: 25px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+p.header{
+    float: left;
+  display: inline-block;
+  font-size: 15px;
+  }
+}
+
+
+
+p.Heading{
+
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #A8A8A8;
+
+}
+
+@media screen and (min-width: 2560px) {
+p.Heading{
+
+  margin-left: 15%;
+  display: inline-block;
+  font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 2559px) {
+p.Heading{
+  margin-left: 15%;
+  display: inline-block;
+  font-size: 50px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1441px) {
+p.Heading{
+  margin-left: 15%;
+  display: inline-block;
+  font-size: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+p.Heading{
+  margin-left: 7%;
+  display: inline-block;
+  font-size: 27px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+p.Heading{
+    float: left;
+  display: inline-block;
+  font-size: 15px;
+  }
+}
+
+.divHead{
+  width: 100%;
+}
