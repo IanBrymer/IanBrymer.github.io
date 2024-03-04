@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.9660a296.css",
-    "main.js": "./static/js/main.03781c6d.js",
+    "main.js": "./static/js/main.e2f0b953.js",
     "static/css/467.0227eef7.chunk.css": "./static/css/467.0227eef7.chunk.css",
     "static/js/467.cd9839f1.chunk.js": "./static/js/467.cd9839f1.chunk.js",
     "static/js/769.95aa7d24.chunk.js": "./static/js/769.95aa7d24.chunk.js",
@@ -172,7 +172,7 @@
     "static/media/—Pngtree—vector house icon_4013530.png": "./static/media/—Pngtree—vector house icon_4013530.1f4409cc6bcf9c505afb.png",
     "index.html": "./index.html",
     "main.9660a296.css.map": "./static/css/main.9660a296.css.map",
-    "main.03781c6d.js.map": "./static/js/main.03781c6d.js.map",
+    "main.e2f0b953.js.map": "./static/js/main.e2f0b953.js.map",
     "467.0227eef7.chunk.css.map": "./static/css/467.0227eef7.chunk.css.map",
     "467.cd9839f1.chunk.js.map": "./static/js/467.cd9839f1.chunk.js.map",
     "769.95aa7d24.chunk.js.map": "./static/js/769.95aa7d24.chunk.js.map",
@@ -221,6 +221,6 @@
   },
   "entrypoints": [
     "static/css/main.9660a296.css",
-    "static/js/main.03781c6d.js"
+    "static/js/main.e2f0b953.js"
   ]
 }
