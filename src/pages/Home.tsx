@@ -29,7 +29,7 @@ const Home = () => {
                     {/* <img src={logo} className="App-logo" alt="logo" /> */}
                     <div className='landingContainer'>
                         <p className='lndHead'>
-                            BRYMER&ASSOCIATESssss
+                            BRYMER&ASSOCIATES
                         </p>
                         <p className='HeadParagraphs'>
                             A LANGUAGE OF LINES
