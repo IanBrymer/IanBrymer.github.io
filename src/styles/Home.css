@@ -1,0 +1,160 @@
+.landingContainer {
+  box-shadow: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 10px;
+}
+.lndHead {
+  font-size: 1em;
+}
+
+.headers {
+  font-size: calc(64px);
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-justify: inter-word;
+  text-align: start;
+  color: #9eb5cd;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.023%;
+  letter-spacing: 25.86px;
+}
+
+.infoRow {
+  align-items: center;
+}
+
+.paragraphs {
+  font-size: calc(16px);
+  font-weight: lighter;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 200%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(60px);
+  color: white;
+  background-image: url("../pictures/Landing/lines.jpg");
+  background-size: 100%;
+  background-position: center;
+  font-weight: 600;
+  width: 100%;
+}
+
+.paragraphPadding {
+  padding-top: 70px;
+}
+
+.columnImage {
+  width: 75%;
+}
+
+.buttonContainer {
+  position: relative;
+  background-color: #d9d9d9;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.exploreOurWorkButton {
+  height: 50px;
+  width: 33%;
+}
+
+.inner {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  border: 2px solid black;
+  bottom: -5px;
+  right: -5px;
+  z-index: 10;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.aboutUs {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.merinda {
+  border-radius: 60px 0px 0px 60px;
+  width: 75%;
+}
+
+.ian {
+  border-radius: 0px 60px 60px 0px;
+  width: 75%;
+}
+
+.portraits {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-size: cover;
+  background-position: bottom;
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 980px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .lndHead {
+    font-size: 0.2em;
+  }
+
+  .landingContainer {
+    box-shadow: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 10px;
+  }
+  .merinda {
+    border-radius: 60px 0px 0px 60px;
+    width: 75%;
+  }
+
+  .ian {
+    border-radius: 0px 60px 60px 0px;
+    width: 75%;
+  }
+
+  .portraits {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-size: cover;
+    background-position: bottom;
+  }
+}

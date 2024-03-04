@@ -1,0 +1,117 @@
+.footerContainer {
+  height: 80vh;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.basContainer {
+  background: "#E4ECF5";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.75;
+}
+
+.menu {
+  background: #e4ecf5;
+  display: flex;
+  justify-content: center;
+
+  flex: 1.5 0;
+  text-align: left;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 36px;
+}
+
+.mainItem {
+  color: black;
+  font-size: 30.87px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.inferiorItems {
+  color: #000;
+  font-family: Inter, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: max-content;
+}
+
+.basContainer {
+  background: "#E4ECF5";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.75 0;
+}
+
+.bas {
+  color: black;
+  font-size: 40.87px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 20.43px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.menuContainer {
+  display: flex;
+
+  justify-content: center;
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .basContainer {
+    width: 100%;
+    height: auto;
+    background: "#E4ECF5";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    width: 100%;
+    height: auto;
+    background: "#E4ECF5";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+}

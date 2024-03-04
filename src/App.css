@@ -1,0 +1,405 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.myContainer {
+  display: block;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 30px
+}
+
+.logo2{
+    color: black;
+  font-size: 25px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.riverHouseWide {
+  width: 66%;
+}
+
+.riverHouseNarrow {
+  width: 33%;
+}
+
+.OtherPageheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoRow {
+  align-items: center;
+}
+
+.portraitRows {
+  align-items: center;
+}
+
+.portraitPadding {
+  padding-top: 150px;
+}
+
+.headers {
+  font-size: calc(64px);
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-justify: inter-word;
+  text-align: start;
+  color: #9eb5cd;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.023%;
+  letter-spacing: 25.86px;
+}
+
+.columnImage {
+  width: 75%;
+}
+
+.navBarBrand {
+  font-family: "Playfair Display", serif;
+}
+
+.HeadParagraphs {
+  font-size: calc(18px);
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.bigImages {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    max-width: 1440px;
+    max-height: 900px;
+}
+
+.miGym{
+      width: 100%;
+      height: 900px;
+      object-fit: cover;
+      max-width: 950px;
+}
+
+
+.plans {
+  width: 100%;
+  max-width: 1440px;
+}
+
+
+.image-box {
+    position: relative;
+    width: 100%;
+    padding-top: calc(100% * (100 / 250));
+    align-items: center;
+    display: flex;
+    padding-bottom: 0;
+}
+
+.image-cropped-calc {
+    position:absolute;
+    top: 0;
+    bottom: 15px;
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    max-width: 1440px;
+}
+
+.image-cropped-calc2 {
+
+    top: 0;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    max-width: 1440px;
+}
+
+.vertical-box {
+    position: relative;
+    width: 100%;
+    padding-top: calc(100% * (100 / 200));
+    align-items: center;
+    display: flex;
+    padding-bottom: 0;
+}
+
+.vertical-cropped-calc {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    max-width: 1440px;
+}
+
+.threeRow {
+  max-width: 100%;
+  height: auto;
+}
+
+.twoRow {
+  width: 100%; /* Make the images take up the full width of the column */
+  height: 100%; /* Set the height to take up the full height of the column */
+  object-fit: contain;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.twoColumnImage {
+  width: 100%;
+  height: 100%;
+}
+
+.tpr-1 {
+  padding-right: 10px;
+}
+
+.tpl-1 {
+  padding-left: 10px;
+}
+
+.threeColumnImage {
+  width: 100%;
+  height: auto;
+}
+
+.pr-1 {
+}
+
+.mid-1 {
+}
+
+.pl-1 {
+}
+
+@media only screen and (max-width: 1280px) {
+  .riverHouseWide {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+
+  .imgForRiverHouse {
+    width: 50%;
+    height: auto;
+  }
+
+  .riverHouseNarrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    padding-right: 0px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .imgForRiverHouse {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraphs {
+    font-size: calc(18px);
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    text-justify: inter-word;
+    line-height: 150%;
+  }
+  .imgForRiverHouse {
+    width: 100%;
+    height: auto;
+  }
+
+  .tpr-1 {
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+
+  .tpl-1 {
+    padding-right: 0px;
+    padding-top: 5px;
+  }
+
+  .pr-1 {
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+
+  .mid-1 {
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .pl-1 {
+    padding-right: 0;
+    padding-top: 5px;
+  }
+
+  .full {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .bigImages {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .riverHouseWide {
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+
+  .riverHouseNarrow {
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 5px;
+  }
+}
+
+.headerContainer {
+  padding: 100px;
+  height: 95vh;
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  background-position: center;
+  background-image: url("./pictures/explore/explore.png");
+}
+
+.foreground {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-content: center;
+  margin: 1em;
+  width: 100%;
+}
+
+.foreground p {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  z-index: 0;
+  overflow: hidden;
+  color: #9eb5cd99;
+}
+
+.background p {
+  font-family: sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #9eb5cd99;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+}
+
+.rowCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignEverythingCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: inherit;
+}
+
+.exploreP {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.exploreRowCard {
+  width: 400px;
+}
+
+.houseCardRows {
+  min-width: max-content;
+}
+
+.houseCardHeadings {
+  color: #000;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 25.118px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.742px; /* 178.125% */
+}
+
+.houseCardParagraphs {
+  color: #000;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.548px; /* 187.5% */
+}
+
+.verticalPortraits {
+  height: 700px;
+  width: 280px;
+}
+
