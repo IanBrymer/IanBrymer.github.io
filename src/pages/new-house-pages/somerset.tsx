@@ -24,7 +24,7 @@ const Somerset = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='6.2vw' height='19vw' backgroundHeader="SOMERSET HOUSE" header='SOMERSET HOUSE'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/Somerset/1.jpg')}></img>
                 </div>
@@ -80,7 +80,7 @@ const Somerset = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/NewHouses/Somerset/16.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

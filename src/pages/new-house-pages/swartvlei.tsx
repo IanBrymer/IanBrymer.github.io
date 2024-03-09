@@ -57,7 +57,7 @@ const Swartvlei = () => {
             <div className="full">
                 <img alt='p2' className='plans' src={require('../../pictures/NewHouses/Swartvleihouse/11.png')}></img>
             </div>
-            {isLoading && <LoadSpinner></LoadSpinner>}
+
         </div>
     )
 }

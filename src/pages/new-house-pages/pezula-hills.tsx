@@ -61,7 +61,7 @@ const PezulaHills = () => {
                     <Col className='p-1'><img alt='p2' className='twoColumnImage' src={require('../../pictures/NewHouses/PezulaHills/p13.png')}></img></Col>
                 </Row>
             </div>
-            {isLoading && <LoadSpinner></LoadSpinner>}
+
         </div>
     )
 }

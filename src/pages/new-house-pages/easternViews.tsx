@@ -24,7 +24,7 @@ const EasternViews = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='7.2vw' height='19vw' backgroundHeader="EASTERN VIEWS" header='EASTERN VIEWS'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/EasternViews/1.JPG')}></img>
                 </div>
@@ -56,7 +56,7 @@ const EasternViews = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/NewHouses/EasternViews/10.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

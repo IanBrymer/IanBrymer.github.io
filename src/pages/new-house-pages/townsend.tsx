@@ -23,7 +23,7 @@ const Townsend = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='1.8rem' scaleOne='1.5rem' scaleTwo='2.5rem' backgroundFontSize='12rem' height='30vh' backgroundHeader="TOWNSEND" header='TOWNSEND'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/Townsend/1.jpg')}></img>
                 </div>
@@ -46,7 +46,7 @@ const Townsend = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/NewHouses/Townsend/7.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

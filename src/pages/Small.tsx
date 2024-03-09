@@ -28,7 +28,7 @@ const Small = () => {
                     </Row>
                 </div>
             </div>
-            <div onLoad={handleImageLoad} className='pb-5 pt-3'>
+            <div className='pb-5 pt-3'>
                 <Row className='w-100 d-flex justify-content-around'>
                     <Col>
                         <Nav.Link href='/small/osc-pavillion'>
@@ -53,7 +53,7 @@ const Small = () => {
                         </Nav.Link>
                     </Col>
                 </Row>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </>
     );

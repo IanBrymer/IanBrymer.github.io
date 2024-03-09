@@ -28,7 +28,7 @@ const Commercial = () => {
                     </Row>
                 </div>
             </div>
-            <div onLoad={handleImageLoad} className='pb-5 pt-3' style={{ margin: 'auto' }}>
+            <div className='pb-5 pt-3' style={{ margin: 'auto' }}>
                 <Row className='w-100 d-flex justify-content-around' style={{ maxWidth: '1440px', margin: 'auto' }}>
                     <Col style={{ padding: 0, display: 'block', maxWidth: '800px' }}>
                         <Nav.Link href='/commercial/proposed-dentistry' style={{ padding: 0, display: 'block', width: 'min-content', margin: 'auto' }}>
@@ -57,7 +57,7 @@ const Commercial = () => {
                         </Nav.Link>
                     </Col>
                 </Row>
-                {isLoading && <LoadSpinner></LoadSpinner>}
+
             </div>
         </>
     );

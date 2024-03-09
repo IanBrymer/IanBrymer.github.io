@@ -24,7 +24,7 @@ const MasefundeLibrary = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='3vw' scaleOne='0.92' scaleTwo='2.5' backgroundFontSize='7vw' height='19vw' backgroundHeader="MASEFUNDE LIBRARY" header='MASEFUNDE LIBRARY'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' className='bigImages' src={require('../../pictures/Educational/MasefundeLibrary/1.jpg')}></img>
                 </div>
@@ -41,7 +41,7 @@ const MasefundeLibrary = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Educational/MasefundeLibrary/5.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

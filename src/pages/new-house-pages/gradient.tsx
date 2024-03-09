@@ -24,7 +24,7 @@ const Gradient = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='10vw' height='19vw' backgroundHeader="GRADIENT" header='GRADIENT'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/Gradient/1.jpg')}></img>
                 </div>
@@ -68,7 +68,7 @@ const Gradient = () => {
                     </Row>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

@@ -24,7 +24,7 @@ const ProposedOSCBoarding = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='3vw' scaleOne='0.92' scaleTwo='4.5' backgroundFontSize='5vw' height='19vw' backgroundHeader="PROPOSED OSC BOARDING HOUSE" header='PROPOSED OSC BOARDING HOUSE'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' className='plans' src={require('../../pictures/Educational/ProposedOakhillBoarding/1.png')}></img>
                 </div>
@@ -41,7 +41,7 @@ const ProposedOSCBoarding = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Educational/ProposedOakhillBoarding/5.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

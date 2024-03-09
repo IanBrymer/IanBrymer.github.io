@@ -25,7 +25,7 @@ const HillviewCrescent = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='4vw' scaleOne='1.5' scaleTwo='4' backgroundFontSize='5.5vw' height='20vw' backgroundHeader="HILLVIEW CRESCENT" header='HILLVIEW CRESCENT'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/Alterations/HillviewCrescent/1.jpg')}></img>
                 </div>
@@ -64,7 +64,7 @@ const HillviewCrescent = () => {
                     </Row>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/footer.css'
 import { Col, Nav, Row } from 'react-bootstrap';
+import LoadSpinner from './loadSpinner';
 
 const Footer = () => {
     return (
@@ -32,6 +33,7 @@ const Footer = () => {
                 </div>
             </div >
         </>
+
     );
 }
 

@@ -25,7 +25,7 @@ const CearnDrive = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='8.5vw' height='19vw' backgroundHeader="CEARN DRIVE" header='CEARN DRIVE'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' loading='lazy' className='plans' src={require('../../pictures/Alterations/CearnDrive/1.png')}></img>
                 </div>
@@ -36,7 +36,7 @@ const CearnDrive = () => {
                     <img alt='p2' loading='lazy' className='plans' src={require('../../pictures/Alterations/CearnDrive/3.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

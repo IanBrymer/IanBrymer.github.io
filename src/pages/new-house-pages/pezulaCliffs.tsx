@@ -24,7 +24,7 @@ const PezulaCliffs = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='7.5vw' height='19vw' backgroundHeader="PEZULA CLIFFS" header='PEZULA CLIFFS'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <div className="image-box">
                         <img alt='p1' className='image-cropped-calc' src={require('../../pictures/NewHouses/PezulaCliffs/1.jpg')}></img>
@@ -87,7 +87,7 @@ const PezulaCliffs = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/NewHouses/PezulaCliffs/19.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

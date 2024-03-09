@@ -24,7 +24,7 @@ const OSCPavillion = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='3vw' scaleOne='1.1' scaleTwo='2' backgroundFontSize='10vw' height='19vw' backgroundHeader="OSC PAVILLION" header='OSC PAVILLION'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' className='plans' src={require('../../pictures/Small/OSCPavillion/1.jpg')}></img>
                 </div>
@@ -35,7 +35,7 @@ const OSCPavillion = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Small/OSCPavillion/3.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

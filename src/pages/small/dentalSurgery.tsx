@@ -24,7 +24,7 @@ const DentalSurgery = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='3vw' scaleOne='1.05' scaleTwo='2' backgroundFontSize='9vw' height='19vw' backgroundHeader="DENTAL SURGERY" header='DENTAL SURGERY'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' className='bigImages' src={require('../../pictures/Small/DentalSurgery/1.jpg')}></img>
                 </div>
@@ -38,7 +38,7 @@ const DentalSurgery = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Small/DentalSurgery/4.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

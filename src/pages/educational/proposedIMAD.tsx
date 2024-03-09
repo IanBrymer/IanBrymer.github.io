@@ -24,7 +24,7 @@ const ProposedOakhillIMAD = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='3vw' scaleOne='0.92' scaleTwo='2.5' backgroundFontSize='7vw' height='19vw' backgroundHeader="PROPOSED IMAD CENTER" header='PROPOSED IMAD CENTER'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' className='plans' src={require('../../pictures/Educational/ProposedOakhillIMAD/1.png')}></img>
                 </div>
@@ -35,7 +35,7 @@ const ProposedOakhillIMAD = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Educational/ProposedOakhillIMAD/3.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

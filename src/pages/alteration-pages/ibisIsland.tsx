@@ -24,7 +24,7 @@ const IbisIsland = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='9.5vw' height='19vw' backgroundHeader="IBIS ISLAND" header='IBIS ISLAND'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/Alterations/IbisIsland/1.jpg')}></img>
                 </div>
@@ -64,7 +64,7 @@ const IbisIsland = () => {
                     </Row>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

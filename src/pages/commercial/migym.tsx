@@ -24,7 +24,7 @@ const MiGym = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='2.5' scaleTwo='2.5' backgroundFontSize='9.5vw' height='22vw' backgroundHeader="MIGYM" header='MiGym'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/Commercial/Migym/1.jpg')}></img>
                 </div>
@@ -96,7 +96,7 @@ const MiGym = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Commercial/Migym/18.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

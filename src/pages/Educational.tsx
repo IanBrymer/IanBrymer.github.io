@@ -32,7 +32,7 @@ const Educational = () => {
                     </Row>
                 </div>
             </div>
-            <div onLoad={handleImageLoad} className='pb-5 pt-3' style={{ margin: 'auto' }}>
+            <div className='pb-5 pt-3' style={{ margin: 'auto' }}>
                 <Row className='w-100 d-flex justify-content-around' style={{ maxWidth: '1440px', margin: 'auto' }}>
                     <Col>
                         <Nav.Link href='/educational/proposed-imad-center'>
@@ -62,7 +62,7 @@ const Educational = () => {
                         </Nav.Link>
                     </Col>
                 </Row>
-                {isLoading && <LoadSpinner></LoadSpinner>}
+
             </div>
         </>
     );

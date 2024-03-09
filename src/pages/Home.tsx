@@ -12,15 +12,6 @@ import DefaultNavbar from '../components/navbar';
 import LoadSpinner from '../components/loadSpinner';
 
 const Home = () => {
-    const [isLoading, setIsLoading] = useState(true);
-    const handleImageLoad = async () => {
-        await delay(2000)
-        setIsLoading(false)
-    };
-
-    function delay(milliseconds: number) {
-        return new Promise((resolve) => setTimeout(resolve, milliseconds));
-    }
     return (
         <div className="App">
             <DefaultNavbar></DefaultNavbar>

@@ -24,7 +24,7 @@ const PezulaFynbos = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1' scaleTwo='2.5' backgroundFontSize='10vw' height='19vw' backgroundHeader="PEZULA FYNBOS" header='PEZULA FYNBOS'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/PezulaFynbos/1.jpg')}></img>
                 </div>
@@ -49,7 +49,7 @@ const PezulaFynbos = () => {
                 <div className="full">
                     <img alt='p2' className='plans' src={require('../../pictures/NewHouses/PezulaFynbos/8.png')}></img>
                 </div>
-                {isLoading && <LoadSpinner></LoadSpinner>}
+
             </div>
         </div>
 

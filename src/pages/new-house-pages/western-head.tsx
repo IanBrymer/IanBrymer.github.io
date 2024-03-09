@@ -24,7 +24,7 @@ const Westernhead = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1.5' scaleTwo='2.5' backgroundFontSize='7.5vw' height='19vw' backgroundHeader="WESTERN HEAD" header='WESTERN HEAD'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/Westernhead/1.jpg')}></img>
                 </div>
@@ -69,7 +69,7 @@ const Westernhead = () => {
                     </Row>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

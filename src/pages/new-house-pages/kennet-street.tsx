@@ -24,7 +24,7 @@ const KennetStreet = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='5vw' scaleOne='1' scaleTwo='2.5' backgroundFontSize='10vw' height='19vw' backgroundHeader="KENNET STREET" header='KENNET STREET'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p1' style={{ width: '100%' }} src={require('../../pictures/NewHouses/KennetStreet/1.jpg')}></img>
                 </div>
@@ -52,7 +52,7 @@ const KennetStreet = () => {
                 <div className="full">
                     <img alt='p2' className='plans' src={require('../../pictures/NewHouses/KennetStreet/9.png')}></img>
                 </div>
-                {isLoading && <LoadSpinner></LoadSpinner>}
+
             </div>
         </div>
     )

@@ -24,7 +24,7 @@ const Noetzie = () => {
                 <TypesNavbar></TypesNavbar>
                 <PageHeaders fontSize='3vw' scaleOne='2.2' scaleTwo='2' backgroundFontSize='10vw' height='20vw' backgroundHeader="Noetzie" header='Noetzie'></PageHeaders>
             </div>
-            <div onLoad={handleImageLoad} className="container">
+            <div className="container">
                 <div className="full">
                     <img alt='p2' className='bigImages' src={require('../../pictures/Small/Noetzie/1.jpg')}></img>
                 </div>
@@ -56,7 +56,7 @@ const Noetzie = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Small/Noetzie/10.png')}></img>
                 </div>
                 <br></br>
-                {isLoading && <LoadSpinner />}
+
             </div>
         </div>
     )

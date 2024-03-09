@@ -24,7 +24,7 @@ const RiverHouse = () => {
                     <TypesNavbar></TypesNavbar>
                     <PageHeaders fontSize='1.8rem' scaleOne='1.5rem' scaleTwo='2.5rem' backgroundFontSize='10rem' height='25vh' backgroundHeader="RIVER HOUSE" header='RIVER HOUSE'></PageHeaders>
                 </div>
-                <div onLoad={handleImageLoad} className="container">
+                <div className="container">
                     <div className="full">
                         <img alt='p1' className='bigImages' src={require('../../pictures/NewHouses/RiverHouse/1.jpg')}></img>
                     </div>
@@ -54,7 +54,7 @@ const RiverHouse = () => {
                         <img alt='p2' className='plans' src={require('../../pictures/NewHouses/RiverHouse/10.png')}></img>
                     </div>
                     <br></br>
-                    {isLoading && <LoadSpinner></LoadSpinner>}
+
                 </div>
             </div>
         </div>
