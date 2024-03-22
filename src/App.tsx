@@ -3,7 +3,7 @@ import Router from './router';
 import DefaultNavbar from './components/navbar';
 import Footer from './components/footer';
 import LoadSpinner from './components/loadSpinner';
-
+import './styles/Home.css'
 
 
 function App() {
@@ -17,16 +17,22 @@ function App() {
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
   }
   return (
+    // <>
+    //   <div onLoad={handleImageLoad}>
+    //     <div className='App'>
+    //       <Router></Router>
+    //       <Footer></Footer>
+    //     </div>
+    //   </div>
+    //   {isLoading && <LoadSpinner></LoadSpinner>}
+    // </>
     <>
-      <div onLoad={handleImageLoad}>
-        <div className='App'>
-          <Router></Router>
-          <Footer></Footer>
-        </div>
+      <div className='App-header' style={{ width: '100%', display: 'flex !important', justifyContent: 'center', alignContent: 'center' }}>
+        <header style={{ margin: 'auto', width: 'fit-content' }}>
+          This site is under maintenance.
+        </header>
       </div>
-      {isLoading && <LoadSpinner></LoadSpinner>}
     </>
-
   );
 }
 
