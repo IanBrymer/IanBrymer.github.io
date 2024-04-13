@@ -287,7 +287,7 @@
     height: auto;
   }
     .paragraphs {
-    font-size: calc(22px);
+    font-size: 16px;
     font-weight: 300;
     font-family: "Inter", sans-serif;
     text-align: start;
@@ -339,7 +339,7 @@
 
 @media only screen and (max-width: 600px) {
   .paragraphs {
-    font-size: calc(18px);
+    font-size: 16px;
     font-weight: 300;
     font-family: "Inter", sans-serif;
     text-align: start;
@@ -449,7 +449,7 @@
 
 @media only screen and (max-width: 426px) {
   .paragraphs {
-    font-size: calc(16px);
+    font-size: 16px;
     font-weight: 300;
     font-family: "Inter", sans-serif;
     text-align: start;

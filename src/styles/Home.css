@@ -41,7 +41,7 @@
 }
 
 .paragraphs {
-  font-size: calc(16px);
+  font-size: 16px;
   font-weight: lighter;
   font-family: "Inter", sans-serif;
   text-align: justify;
@@ -168,7 +168,7 @@
   }
 
     .paragraphs{
-   font-size: 2.8vw;
+   font-size: 16px;
    text-align:center;
   }
     .headers .col{
@@ -385,11 +385,10 @@
 
 @media only screen and (max-width: 426px) {
   .lndHead {
-      font-size: 4vw;
-      transform: scale(1,1.5);
+      font-size: 2.5rem;
       font-weight: 700;
     font-family: "Inter", sans-serif;
-    text-align: justify;
+    text-align:center;
     text-justify: inter-word;
       overflow-wrap:normal;
   }
