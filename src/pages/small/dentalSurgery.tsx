@@ -8,15 +8,6 @@ import { Col, Row } from 'react-bootstrap';
 import BackTo from '../../components/backTo';
 
 const DentalSurgery = () => {
-    const [isLoading, setIsLoading] = useState(true);
-    const handleImageLoad = async () => {
-        await delay(2000)
-        setIsLoading(false)
-    };
-
-    function delay(milliseconds: number) {
-        return new Promise((resolve) => setTimeout(resolve, milliseconds));
-    }
     return (
         <div className="App">
             <BackTo text='Back To Small Builds' link='/small'></BackTo>
@@ -38,7 +29,6 @@ const DentalSurgery = () => {
                     <img alt='p2' className='plans' src={require('../../pictures/Small/DentalSurgery/4.png')}></img>
                 </div>
                 <br></br>
-
             </div>
         </div>
     )

@@ -1,21 +1,10 @@
-import React, { useState } from 'react';
-import LoadSpinner from '../../components/loadSpinner';
-
+import React from 'react';
 import TypesNavbar from '../../components/typesNavbar';
 import PageHeaders from '../../components/pageHeaders';
 import '../../App.css'
 import BackTo from '../../components/backTo';
 
 const RedBridgeRoad = () => {
-    const [isLoading, setIsLoading] = useState(true);
-    const handleImageLoad = async () => {
-        await delay(2000)
-        setIsLoading(false)
-    };
-
-    function delay(milliseconds: number) {
-        return new Promise((resolve) => setTimeout(resolve, milliseconds));
-    }
     return (
         <div className="App">
             <BackTo text='Back To Alterations' link='/alterations'></BackTo>

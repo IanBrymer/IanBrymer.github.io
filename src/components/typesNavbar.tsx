@@ -4,9 +4,10 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 const TypesNavbar = () => {
     return (
         <>
-            <div className='logo'><div className='logo2'>Brymer &<br></br>Associates</div></div>
+
             <Navbar expand="lg" className="bg-body-tertiary w-100 justify-content-center d-flex">
-                <Container className='w-50 '>
+                <Container className=' '>
+                    <Navbar.Brand href='/'><div className='logo2'>Brymer &<br></br>Associates</div></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto paragraphs w-100 d-flex justify-content-between">

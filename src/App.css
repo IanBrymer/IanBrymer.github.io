@@ -15,12 +15,16 @@
 
 .logo2{
     color: black;
-  font-size: 25px;
+  font-size: 1.5vw;
   font-family: Inter, sans-serif;
   font-weight: 500;
   letter-spacing: 10px;
   word-wrap: break-word;
   text-align: left;
+}
+
+.exploreRowCard {
+  width: 400px;
 }
 
 .riverHouseWide {
@@ -65,7 +69,7 @@
 }
 
 .columnImage {
-  width: 75%;
+  width: 75vw;
 }
 
 .navBarBrand {
@@ -73,7 +77,7 @@
 }
 
 .HeadParagraphs {
-  font-size: calc(18px);
+  font-size: 3.9vw !important;
   font-weight: 300;
   font-family: "Inter", sans-serif;
   text-align: justify;
@@ -160,6 +164,14 @@
   height: auto;
 }
 
+.break{
+  word-wrap: break-word;
+  padding-top: 3em !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .twoRow {
   width: 100%; /* Make the images take up the full width of the column */
   height: 100%; /* Set the height to take up the full height of the column */
@@ -204,6 +216,10 @@
     padding-bottom: 5px;
   }
 
+  .columnImage {
+  width: 100%;
+}
+
   .imgForRiverHouse {
     width: 50%;
     height: auto;
@@ -217,13 +233,100 @@
     padding-right: 0px;
     padding-top: 5px;
   }
+
+  .break{
+  word-wrap: break-word;
+  padding-top: 3em !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+  .houseCardHeadings {
+  font-size: 32px !important;
+}
+.houseCardParagraphs{
+  font-size: 24px !important;
+  text-align:center;
+}
+
+.exploreRowCard {
+  width: 400px;
+
+}
+.exploreP {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.5vw !important;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  width: fit-content;
+}
 }
 
 @media only screen and (max-width: 980px) {
+  .houseCardHeadings {
+  font-size: 32px !important;
+}
+.houseCardParagraphs{
+  font-size: 24px !important;
+  text-align: start;
+}
+   nav .w-75  .container{
+    width: 100% !important;
+   }
   .imgForRiverHouse {
     width: 100%;
     height: auto;
   }
+    .paragraphs {
+    font-size: calc(22px);
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    text-justify: inter-word;
+    line-height: 150%;
+  }
+  .logo{
+  position: absolute;
+  top: 0;
+  left: 30px;
+  min-width: 100vw;
+}
+
+.logo2{
+    color: black;
+  font-size: 2vw;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+.exploreRowCard {
+  width: 50%;
+}
+.exploreP {
+  color: #000;
+  font-family: Inter;
+  font-size: 3vw !important;
+  font-style: normal;
+  font-weight: 500;
+  word-break: normal;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.break{
+  word-wrap: break-word;
+  padding-top: 3em !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -290,6 +393,109 @@
     padding-right: 0px;
     padding-top: 5px;
   }
+
+  .logo2{
+    color: black;
+  font-size: 2.5vw;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+.exploreRowCard {
+  width: 50%;
+}
+.exploreP {
+  color: #000;
+  font-family: Inter;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+}
+
+@media only screen and (max-width: 426px) {
+  .paragraphs {
+    font-size: calc(16px);
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    text-justify: inter-word;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+  .imgForRiverHouse {
+    width: 100%;
+    height: auto;
+  }
+
+  .tpr-1 {
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+
+  .tpl-1 {
+    padding-right: 0px;
+    padding-top: 5px;
+  }
+
+  .pr-1 {
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+
+  .mid-1 {
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .pl-1 {
+    padding-right: 0;
+    padding-top: 5px;
+  }
+
+  .full {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .bigImages {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .riverHouseWide {
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+
+  .riverHouseNarrow {
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 5px;
+  }
+.logo2{
+    color: black;
+  font-size: 4vw;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.padding-background{
+  padding: 0 !important;
+}
 }
 
 .headerContainer {
@@ -312,6 +518,10 @@
   align-content: center;
   margin: 1em;
   width: 100%;
+}
+
+.padding-background{
+  padding: 3em !important;
 }
 
 .foreground p {
@@ -362,17 +572,15 @@
 .exploreP {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 500;
-
+  width: 50px;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
 
-.exploreRowCard {
-  width: 400px;
-}
+
 
 .houseCardRows {
   min-width: max-content;

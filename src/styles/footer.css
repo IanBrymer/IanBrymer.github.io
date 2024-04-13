@@ -63,7 +63,7 @@
 
 .bas {
   color: black;
-  font-size: 40.87px;
+  font-size: 3vw;
   font-family: Inter, sans-serif;
   font-weight: 500;
   letter-spacing: 20.43px;
@@ -114,4 +114,56 @@
     gap: 20px;
     width: 100%;
   }
+  .bas {
+  color: black;
+  font-size: 5vw;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 20.43px;
+  word-wrap: break-word;
+  text-align: left;
+}
+}
+
+@media only screen and (max-width: 426) {
+  .footerContainer {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .basContainer {
+    width: 100%;
+    height: auto;
+    background: "#E4ECF5";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    width: 100%;
+    height: auto;
+    background: "#E4ECF5";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .bas {
+  color: black;
+  font-size: 5vw;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 20.43px;
+  word-wrap: break-word;
+  text-align: left;
+}
 }

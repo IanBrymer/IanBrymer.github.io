@@ -17,22 +17,22 @@ function App() {
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
   }
   return (
-    // <>
-    //   <div onLoad={handleImageLoad}>
-    //     <div className='App'>
-    //       <Router></Router>
-    //       <Footer></Footer>
-    //     </div>
-    //   </div>
-    //   {isLoading && <LoadSpinner></LoadSpinner>}
-    // </>
     <>
-      <div className='App-header' style={{ width: '100%', display: 'flex !important', justifyContent: 'center', alignContent: 'center' }}>
-        <header style={{ margin: 'auto', width: 'fit-content' }}>
-          This site is under maintenance.
-        </header>
+      <div onLoad={handleImageLoad}>
+        <div className='App'>
+          <Router></Router>
+          <Footer></Footer>
+        </div>
       </div>
+      {isLoading && <LoadSpinner></LoadSpinner>}
     </>
+    // <>
+    //   <div className='App-header' style={{ width: '100%', display: 'flex !important', justifyContent: 'center', alignContent: 'center' }}>
+    //     <header style={{ margin: 'auto', width: 'fit-content' }}>
+    //       This site is under maintenance.
+    //     </header>
+    //   </div>
+    // </>
   );
 }
 
