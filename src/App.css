@@ -207,6 +207,10 @@
 .pl-1 {
 }
 
+.margAut{
+  margin: auto;
+}
+
 @media only screen and (max-width: 1280px) {
   .riverHouseWide {
     display: flex;
@@ -325,8 +329,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 900px;
 }
+}
+
+.annoyance{
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -338,6 +346,27 @@
     text-justify: inter-word;
     line-height: 150%;
   }
+  .annoyance{
+    width: 102%;
+    margin: auto;
+}
+
+  .margAut{
+  margin: auto;
+  display: flex;
+      justify-content: center;
+    align-items: center;
+
+}
+
+  .break{
+  word-wrap: break-word;
+  padding-top: 3em !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+}
   .imgForRiverHouse {
     width: 100%;
     height: auto;

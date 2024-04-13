@@ -14,7 +14,7 @@ const Alterations = () => {
             < div className="App" >
                 <div className='OtherPageheader'>
                     <TypesNavbar></TypesNavbar>
-                    <PageHeaders fontSize='2rem' scaleOne='1' scaleTwo='1.5' backgroundFontSize='14vw' height='400px' backgroundHeader="ALTERATIONS" header='EXPLORE A FEW OF OUR ALTERATIONS'></PageHeaders>
+                    <PageHeaders fontSize='2rem' scaleOne='1' scaleTwo='3.5' backgroundFontSize='14vw' height='90vh' backgroundHeader="ALTERATIONS" header='EXPLORE A FEW OF OUR ALTERATIONS'></PageHeaders>
                     <Row className='px-2' style={{ height: 'min-content', marginBottom: '20px', width: '95%' }}>
                         <Col >
                             <p style={{ textAlign: 'left' }} className='paragraphs'>Brymer and Associates has worked on more than 100 alteration and renovation projects over the years. Working on these projects is a passion of ours and we have developed a good understanding of the building and environmental conditions specific to each site and location.</p>

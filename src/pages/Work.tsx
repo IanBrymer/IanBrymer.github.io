@@ -4,7 +4,6 @@ import PageHeaders from '../components/pageHeaders';
 import ExploreCards from '../components/exploreCards';
 import { Col, Row } from 'react-bootstrap';
 import TypesNavbar from '../components/typesNavbar';
-import LoadSpinner from '../components/loadSpinner';
 const Work = () => {
     const [width, setWidth] = useState(window.innerWidth);
     const breakpoint = 600;

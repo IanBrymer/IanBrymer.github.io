@@ -1,21 +1,9 @@
 import PageHeaders from '../components/pageHeaders';
-import React, { useState } from 'react';
-
 import '../App.css'
 import { Col, Nav, Row } from 'react-bootstrap';
 import HouseCards from '../components/houseCards';
 import TypesNavbar from '../components/typesNavbar';
-import LoadSpinner from '../components/loadSpinner';
 const NewHouses = () => {
-    const [isLoading, setIsLoading] = useState(true);
-    const handleImageLoad = async () => {
-        await delay(2000)
-        setIsLoading(false)
-    };
-
-    function delay(milliseconds: number) {
-        return new Promise((resolve) => setTimeout(resolve, milliseconds));
-    }
     return (
         <>
             <div className="App">
@@ -33,7 +21,7 @@ const NewHouses = () => {
                 </div>
             </div>
             <div className='pb-5 pt-3'>
-                <Row className='w-100 d-flex justify-content-around'>
+                <Row className='w-100 d-flex justify-content-around margAut'>
                     <Col className='py-4'>
                         <Nav.Link href='/new-houses/river-house'>
                             <HouseCards paddingTop='35px' imageSrc='HouseCards/RiverHouse.jpg' houseName='River House' paragraph='A simple stone, glass and steel construction designed to create a contemporary and relaxed holiday home in nature. The dwelling has been constructed on a raised stone and steel support structure to accommodate the Knysna River 100 year flood levels.'></HouseCards>
@@ -50,7 +38,7 @@ const NewHouses = () => {
                         </Nav.Link>
                     </Col>
                 </Row>
-                <Row className='w-100 d-flex justify-content-around'>
+                <Row className='w-100 d-flex justify-content-around margAut'>
                     <Col className='py-4'>
                         <Nav.Link href='/new-houses/western-head'>
                             <HouseCards paddingTop='-50px' imageSrc='HouseCards/WesternHead.jpg' houseName='Western Head' paragraph='Situated on a 100 m high cliff overlooking the ocean this contemporary dwelling has to withstand extreme weather. Face brick, concrete, aluminium and deep overhangs have been incorporated into the design to reduce maintenance over time'></HouseCards>
@@ -67,7 +55,7 @@ const NewHouses = () => {
                         </Nav.Link>
                     </Col>
                 </Row>
-                <Row className='w-100 d-flex justify-content-around'>
+                <Row className='w-100 d-flex justify-content-around margAut'>
                     <Col className='py-4'>
                         <Nav.Link href='/new-houses/somerset-house'>
                             <HouseCards paddingTop='10px' imageSrc='HouseCards/SomerSet.jpg' houseName='Somerset House' paragraph='Contemporary modern designed house set high on the Somerset hills overlooking False Bay. Bright airy house with a Northern aspect for light and warmth and expansive Southern views, with living areas and master bedroom on one level'></HouseCards>
@@ -84,7 +72,7 @@ const NewHouses = () => {
                         </Nav.Link>
                     </Col>
                 </Row>
-                <Row className='w-100 d-flex justify-content-around'>
+                <Row className='w-100 d-flex justify-content-around margAut'>
                     <Col className='py-4'>
                         <Nav.Link href='/new-houses/pezula-cliffs'>
                             <HouseCards paddingTop='10px' imageSrc='HouseCards/PezulaCliffs.jpg' houseName='Pezula Cliffs' paragraph='Large spacious plantation style house with views over the Pezula cliffs to the Indian ocean. Living areas opening up onto a large central court yard to allow air flow though the spaces, as well as for a weather protected outdoor area.'></HouseCards>
