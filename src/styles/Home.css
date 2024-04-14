@@ -241,11 +241,13 @@
     justify-content: center;
   display: flex;
   text-align: center;
+
   }
   .headerRow{
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
+    text-align: center;
     width: 100%;
   }
     .lndHead {
@@ -291,7 +293,7 @@
   font-weight: 600;
   font-family: "Inter", sans-serif;
   text-justify: inter-word;
-  text-align: start;
+  text-align: center;
   color: #9eb5cd;
   font-style: normal;
   font-weight: 700;
@@ -408,7 +410,7 @@
   font-weight: 600;
   font-family: "Inter", sans-serif;
   text-justify: inter-word;
-  text-align: start;
+  text-align: center;
   color: #9eb5cd;
   font-style: normal;
   font-weight: 700;
