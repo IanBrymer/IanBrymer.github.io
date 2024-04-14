@@ -24,7 +24,7 @@
 }
 
 .exploreRowCard {
-  width: 400px;
+  max-width: 328px;
 }
 
 .riverHouseWide {
@@ -251,23 +251,29 @@
   font-size: 32px !important;
 }
 .houseCardParagraphs{
-  font-size: 24px !important;
-  text-align:center;
+  font-size: 16px !important;
+    color: #000;
+  text-align: left !important;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+
+  line-height: 23.548px;
 }
 
 .exploreRowCard {
-  width: 400px;
+  max-width: 350px;
 
 }
 .exploreP {
   color: #000;
   font-family: Inter;
-  font-size: 1.5vw !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 10px;
   text-transform: uppercase;
-  width: fit-content;
+  width: 267px;
 }
 }
 
@@ -276,8 +282,14 @@
   font-size: 32px !important;
 }
 .houseCardParagraphs{
-  font-size: 24px !important;
+  font-size: 16px !important;
+    color: #000;
   text-align: start;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+
+  line-height: 23.548px;
 }
    nav .w-75  .container{
     width: 100% !important;
@@ -311,17 +323,18 @@
   text-align: left;
 }
 .exploreRowCard {
-  width: 50%;
+  max-width: 350px;
 }
 .exploreP {
   color: #000;
   font-family: Inter;
-  font-size: 3vw !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   word-break: normal;
   letter-spacing: 10px;
   text-transform: uppercase;
+  width: 267px;
 }
 .break{
   word-wrap: break-word;
@@ -433,15 +446,15 @@
   text-align: left;
 }
 .exploreRowCard {
-  width: 50%;
+  max-width: 280px;
 }
 .exploreP {
   color: #000;
   font-family: Inter;
-  font-size: 2vw;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-
+  width: 267px;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -601,10 +614,10 @@
 .exploreP {
   color: #000;
   font-family: Inter;
-  font-size: 1.5vw;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  width: 50px;
+  width: 267px;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -631,7 +644,7 @@
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+
   line-height: 23.548px; /* 187.5% */
 }
 
