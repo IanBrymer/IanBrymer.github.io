@@ -21,13 +21,13 @@ const DefaultNavbar = () => {
     return (
         <>
             {isMobile ? (
-                <Navbar bg="light" expand="lg" className="fixed-top">
+                <Navbar bg="light" expand="lg" className="fixed">
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="flex-column">
-                            <Nav.Link className="linkText" href='/'>HOME</Nav.Link>
-                            <Nav.Link className="linkText" href="/our-work">OUR WORK</Nav.Link>
-                            <Nav.Link className="linkText" href="/contact-us">CONTACT US</Nav.Link>
+                        <Nav className="flex-column justify-content-start mx-3">
+                            <Nav.Link className="d-flex justify-content-start" href='/'>HOME</Nav.Link>
+                            <Nav.Link className="d-flex justify-content-start" href="/our-work">OUR WORK</Nav.Link>
+                            <Nav.Link className="d-flex justify-content-start" href="/contact-us">CONTACT US</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

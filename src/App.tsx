@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Router from './router';
-import DefaultNavbar from './components/navbar';
 import Footer from './components/footer';
 import LoadSpinner from './components/loadSpinner';
 import './styles/Home.css'

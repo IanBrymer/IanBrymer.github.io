@@ -38,6 +38,7 @@ const OSCPavillion = React.lazy(() => import('./pages/small/oscPavillion'));
 const KennetStreetCottage = React.lazy(() => import('./pages/small/kennetStreetCottage'));
 const Noetzie = React.lazy(() => import('./pages/small/noetzie'));
 const DentalSurgery = React.lazy(() => import('./pages/small/dentalSurgery'));
+const ContactUs = React.lazy(() => import('./pages/ContactUs'));
 const Router = () => {
   return (
     <Suspense>
@@ -79,6 +80,7 @@ const Router = () => {
         <Route path='/small/kennet-street-cottage' Component={KennetStreetCottage}></Route>
         <Route path='/small/noetzie' Component={Noetzie}></Route>
         <Route path='/small/dental-surgery' Component={DentalSurgery}></Route>
+        <Route path='/contact-us' Component={ContactUs}></Route>
       </Routes>
     </Suspense>
   );
