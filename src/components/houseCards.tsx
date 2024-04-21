@@ -15,6 +15,11 @@ const HouseCards = (props: { imageSrc: string, houseName: string, paragraph: str
                     <Card.Text className='houseCardParagraphs'>
                         {props.paragraph}
                     </Card.Text>
+                    <div className='d-flex text-center'>
+                        <p className='readMore'>
+                            VIEW MORE
+                        </p>
+                    </div>
                 </Card.Body>
             </Card>
         </Col>

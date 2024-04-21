@@ -68,6 +68,23 @@
   letter-spacing: 25.86px;
 }
 
+.readMore{
+    font-family: "Inter", sans-serif;
+      font-size: 13px;
+vertical-align: middle;
+    display: flex !important;
+    align-items: center;
+  cursor: pointer;
+  
+}
+
+/* .readMore::after{
+  content: "\00BB";
+  font-size: 30px;
+  width: 20px;
+vertical-align: middle;
+} */
+
 .columnImage {
   width: 75vw;
 }
