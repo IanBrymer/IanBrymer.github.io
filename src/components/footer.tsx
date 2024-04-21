@@ -13,15 +13,14 @@ const Footer = () => {
                 <div className='menu' style={{ backgroundColor: '#C5D2E1' }}>
                     <div className='menuContainer'>
                         <div className="h-fit w-75 d-flex" style={{ margin: 'auto', justifyContent: 'space-between' }}>
-                            <div className='column' >
+                            <div className='column my-2' >
                                 <Nav.Link className='mainItem' href='/'>HOME</Nav.Link>
                                 <Nav.Link className='inferiorItems' href="/">About Us</Nav.Link>
                                 <Nav.Link className='inferiorItems' href="/">Our Philosphy</Nav.Link>
                                 <Nav.Link className='inferiorItems' href="/">Who we are</Nav.Link>
-                                <Nav.Link className='mainItem' href="/">Contact Us</Nav.Link>
+                                <Nav.Link className='inferiorItems' href="/contact-us">Contact Us</Nav.Link>
                             </div>
-                            <div className='column'>
-                                <Nav.Link className='mainItem' href='/'>HOME</Nav.Link>
+                            <div className='column my-2'>
                                 <Nav.Link className='inferiorItems' href="/new-houses">New Houses</Nav.Link>
                                 <Nav.Link className='inferiorItems' href="/alterations">Alterations</Nav.Link>
                                 <Nav.Link className='inferiorItems' href="/small">Small Builds</Nav.Link>
