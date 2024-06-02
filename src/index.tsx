@@ -11,7 +11,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <meta name="google-site-verification" content="AJoDsyrKs-thiPm9vgL4__qyaje3jXW9HOWMSfotKIg" />
+    <head>
+    </head>
     <BrowserRouter basename='/'>
       <React.StrictMode>
         <App />
