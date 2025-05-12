@@ -21,10 +21,13 @@ const ContactUs = () => {
                             <div style={{ width: '500px', justifyContent: 'center', backgroundColor: '#eaf4ff', padding: '30px' }}>
                                 <Row className='my-5 d-flex justify-content-center'>
                                     <Col style={{ maxWidth: "250px", height: 'min-content' }}>
-                                        <p className='contact'><EmailIcon></EmailIcon><span className='mx-1'></span>EMAIL ADDRESS</p>
+                                        <p className='contact'><EmailIcon></EmailIcon><span className='mx-1'></span>EMAIL ADDRESS'</p>
                                     </Col>
                                     <Col style={{ maxWidth: "250px", height: 'min-content' }}>
-                                        <p className='contact'><a onClick={() => window.location.href = 'mailto:info@brymer.co.za'} href='mailto:mail@merinda.co.za' style={{ color: 'black' }}>info@brymer.co.za</a></p>
+                                        <p className='contact'><a onClick={() => window.location.href = 'mailto:mail@merinda.co.za'} href='mailto:mail@merinda.co.za' style={{ color: 'black' }}>Merinda: mail@merinda.co.za</a></p>
+                                    </Col>
+                                    <Col style={{ maxWidth: "250px", height: 'min-content' }}>
+                                        <p className='contact'><a onClick={() => window.location.href = 'mailto:ian@brymer.co.za'} href='mailto:ian@brymer.co.za' style={{ color: 'black' }}>Ian: ian@brymer.co.za</a></p>
                                     </Col>
                                 </Row>
                                 <Row className='my-5 d-flex justify-content-center'>
