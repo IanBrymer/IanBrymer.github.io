@@ -24,7 +24,7 @@ const ContactUs = () => {
                                         <p className='contact'><EmailIcon></EmailIcon><span className='mx-1'></span>EMAIL ADDRESS</p>
                                     </Col>
                                     <Col style={{ maxWidth: "250px", height: 'min-content' }}>
-                                        <p className='contact'><a onClick={() => window.location.href = 'mailto:info@brymer.co.za'} href='mailto:info@brymer.co.za' style={{ color: 'black' }}>info@brymer.co.za</a></p>
+                                        <p className='contact'><a onClick={() => window.location.href = 'mailto:info@brymer.co.za'} href='mailto:mail@merinda.co.za' style={{ color: 'black' }}>info@brymer.co.za</a></p>
                                     </Col>
                                 </Row>
                                 <Row className='my-5 d-flex justify-content-center'>
